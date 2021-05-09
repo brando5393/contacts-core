@@ -1,0 +1,28 @@
+{
+  "name": "contacts-core",
+  "version": "1.0.0",
+  "description": "A simple address book program.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron .",
+    "watch": "electron . --watch"
+  },
+  "keywords": [
+    "contacts",
+    "address book",
+    "desktop",
+    "electron"
+  ],
+  "author": "Brandon T. Williams",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.7"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "bootstrap-icons": "^1.4.1",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  }
+}

@@ -1,0 +1,75 @@
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.css);
+@import url(../../node_modules/bootstrap-icons/font/bootstrap-icons.css);
+body {
+  color: whitesmoke;
+  background-color: #00adb5;
+}
+
+.card {
+  background-color: #393e46;
+  margin-bottom: 8px;
+}
+
+.card h5 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container {
+  margin: auto;
+  margin-top: 10px;
+  background-color: #aad8d3;
+  -webkit-box-shadow: 5px 10px #393e46;
+          box-shadow: 5px 10px #393e46;
+}
+
+.jumbotron {
+  background-color: #393e46;
+  color: whitesmoke;
+  text-align: center !important;
+  margin: 5px;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.jumbotron .heading-rule {
+  margin: auto;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: whitesmoke;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+footer ul a {
+  text-decoration: none;
+}
+
+#main-option-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#main-option-buttons button {
+  color: whitesmoke;
+}
+
+#main-option-buttons .bi {
+  margin-right: 5px;
+  color: #393e46;
+}
+/*# sourceMappingURL=main.css.map */
